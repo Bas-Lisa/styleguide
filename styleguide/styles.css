@@ -1,0 +1,455 @@
+body {
+    margin: 100px 15px 200px 15px;
+    background-color: #FAFBFD;
+}
+
+/* small snippets */
+h1, h2, h3, h4, h5, p, button {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-decoration: .3px underline #555555;
+}
+
+h3 {
+    margin-left: 10px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 18px;
+    color: #555555;
+}
+
+h4 {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    color: #555555;
+}
+
+h5 {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 300;
+    color: #555555; 
+    text-align: center;
+}
+
+.column {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    padding: 10px; /* Add some padding to separate the content from the container */
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column h2 {
+    font-family: 'Lato';
+    font-weight: 400;
+    color: #555555;
+    padding: 10px;
+    text-align: left;
+    text-transform : uppercase;
+}
+
+/*typeface*/
+.lato {
+    display: inline-flex;
+    flex-wrap: wrap; 
+    margin: 10px 0px;  
+    margin-bottom: 60px;
+}   
+
+
+.lato .light {
+    font-family: 'Lato';
+    font-size: 48px;
+    font-weight: 300;
+    color: #555555;
+    padding-right: 20px;
+    margin-left: 10px;
+
+}
+
+    
+.lato .regular {
+    font-family: 'Lato';    
+    font-size: 48px;
+    font-weight: 400; 
+    color: #555555;
+    padding-right: 20px;
+}
+
+    
+.lato .bold {
+    font-family: 'Lato';
+    font-size: 48px;
+    font-weight: 700;
+    color: #555555;
+    padding-right: 20px;
+}
+
+.open-sans {
+    display: inline-flex;
+    flex-wrap: wrap; 
+    margin: 10px 0px;    
+}
+
+.open-sans .light {
+    font-family: 'Open Sans';
+    font-size: 48px;
+    font-weight: 300;
+    color: #555555;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+
+}
+
+.open-sans .regular {
+    font-family: 'Open Sans';
+    font-size: 48px;
+    font-weight: 400;
+    color: #555555;
+    padding-right: 20px;
+
+}
+
+.open-sans .bold {
+    font-family: 'Open Sans';
+    font-size: 48px;
+    font-weight: 700;
+    color: #555555;
+    padding-right: 20px;
+}
+
+.fonts #h1-lato {
+    font-family: 'Lato';
+    font-size: 38px;
+    font-weight: 300;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.fonts #h2-lato {
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: 300;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.fonts #h3-lato {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 300;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.fonts #regular-lato {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 300;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.fonts #regular-opensans {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    color: #555555;
+}
+
+/*color palette*/
+.primary {
+    display: inline-flex;
+    flex-wrap: wrap; 
+    margin: 10px 0px; 
+    justify-content: center; /* Center the flex items horizontally */
+    text-align: center; /* Center the text within the flex items */
+}
+
+
+.round-div #first{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #3153CC;
+    margin-right: 10px; 
+}
+
+.round-div #second {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #1C2440;
+   
+}
+
+.round-div #third {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #546E7A;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.round-div #fourth {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #78909C;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.round-div #fith {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #B0BEC5;
+    text-align: center;
+    margin-right: 10px; 
+}
+
+.round-div #sixth {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #CFD8DC;
+    text-align: center;
+}
+
+/*secondary colors*/
+.round-div #seven {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #186580;
+    text-align: center;
+    margin-right: 10px;
+}
+.round-div #eight {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #422580;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.round-div #nine {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #BDCBFF;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.round-div #ten {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #FFF5BD;
+    text-align: center;
+}
+
+.colors {
+    display: inline-flex;
+    height: 100px;
+    flex-wrap: wrap; 
+    margin-top: 10px;
+    
+}
+
+.colors p {
+    font-family: 'Lato';
+    font-weight: 100;
+    font-size: 11px;
+}
+
+/*grey colors*/
+.secondaryswatches {
+    display: inline-flex;
+    flex-wrap: wrap; 
+    margin: 10px 0px; 
+    justify-content: center; /* Center the flex items horizontally */
+    text-align: center; /* Center the text within the flex items */
+}
+
+.swatch-div #frostedglass {
+    width: 70px;
+    height: 100px;
+    background-color: #ECEFF1;
+    flex: 1;
+}
+
+.swatch-div #whiteblue{
+    width: 70px;
+    height: 100px;
+    background-color: #CFD8DC;
+    flex: 1;
+}
+
+.swatch-div #articfeelings{
+    width: 70px;
+    height: 100px;
+    background-color: #B0BEC5;
+    flex: 1;
+}
+
+
+.swatch-div #shelteredbay{
+    width: 70px;
+    height: 100px;
+    background-color: #78909C;
+    flex: 1;
+}
+.swatch-div #cadetgrey{
+    width: 70px;
+    height: 100px;
+    background-color: #142152;
+    flex: 1;
+}
+.swatch-div #whaleshark{
+    width: 70px;
+    height: 100px;
+    background-color: #607c8e;
+    flex: 1;
+}
+
+.swatch-div #bluesentinel{
+    width: 70px;
+    height: 100px;
+    background-color: #546E7A;
+    flex: 1;
+}
+
+
+/*blue colors*/
+.primaryswatches {
+    display: inline-flex;
+    flex-wrap: wrap; 
+    margin: 10px 0px; 
+    justify-content: center; /* Center the flex items horizontally */
+    text-align: center; /* Center the text within the flex items */
+}
+
+
+.swatch-div #skyblue{
+    width: 100px;
+    height: 100px;
+    background-color: #3153CC;
+    flex: 1;
+}
+
+.swatch-div #seablue{
+    width: 100px;
+    height: 100px;
+    background-color: #405291;
+    flex: 1;
+}
+
+.swatch-div #darkblue{
+    width: 100px;
+    height: 100px;
+    background-color: #2E3B69;
+    flex: 1;
+}
+.swatch-div #midnightblue{
+    width: 100px;
+    height: 100px;
+    background-color: #1C2440;
+    flex: 1;
+} 
+
+/*buttons*/
+.buttons {
+    width: max-content;
+    inline-size: max-content;
+    height: max-content;
+    block-size: max-content;
+    margin-left: 15 px;
+}
+
+.btn {
+    font-family: 'Lato';
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background-color: #1F3480;
+    color: white;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: #2844A8;
+}
+
+.btn-border {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background-color: white;
+    color: #9a9a9a;
+    border: solid .1em #9a9a9a;
+    padding: 12px 35px;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.btn-border:hover {
+    border: solid .1em #1F3480;
+    color: #1F3480;
+
+}
+
+.btn-border-fill {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background-color: white;
+    color: #1F3480;
+    border: solid .1em #1F3480;
+    padding: 12px 35px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-border-fill:hover {
+    background-color: #1F3480;
+    color: white;
+}
+
+.btn-border-white {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background-color: white;
+    color: #969bac;
+    border: solid .1em #969bac;
+    padding: 12px 35px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-border-white:hover {
+    border: solid .1em black;
+    color: black;
+}
